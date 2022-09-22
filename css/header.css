@@ -1,0 +1,65 @@
+.header-container{
+    display: grid;
+    gap: 15px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 30px;
+}
+
+.header-container .profile{
+    display: flex;
+    margin-top: 37px;
+    margin-left: 30px;
+    align-items: center;
+    
+}
+
+.header-container .profile .text-profile-container{
+    display: inline-block;
+    margin-left: 10px;
+    /* margin-left: 10px; */
+}
+
+.header-container .profile .text-profile-container p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color:black;
+    margin-bottom: -10px;
+
+}
+
+.header-container .profile .text-profile-container h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color:black;
+
+}
+
+.header-container .profile img{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.header-container .icon-notification{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    margin-right: 30px;
+}
+
+.header-container .icon-notification .notification{
+    background-image:url(../images/icons/bell.png) ;
+    width: 24px;
+    height: 24px;
+}
+
+
+.header-container .icon-notification .cart{
+    background-image:url(../images/icons/cart.png) ;
+    width: 24px;
+    height: 24px;
+}

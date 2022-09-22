@@ -1,0 +1,65 @@
+.container-menu .menu-items{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    bottom: 0px;
+    background-color: #F1F1F1;
+    margin-bottom: 0px;
+    height:60px;
+    width: 100%;
+    padding-left: 0px;
+    
+
+    
+}
+
+.container-menu .menu-items li{
+    text-align: center;
+    list-style: none;
+    width: 17px;
+    height: 17.48px;
+    margin-top: 18px;
+    
+}
+
+.container-menu .menu-items li a{
+    cursor: pointer;
+    
+}
+
+
+.container-menu .menu-items .icon-home{
+    background-image: url(../images/menu/home.png);
+    background-repeat: no-repeat;
+    width:17px;
+    height: 17.48px;
+}
+
+.container-menu .menu-items .icon-notes{
+    background-image: url(../images/menu/notes.png);
+    background-repeat: no-repeat;
+    width:17px;
+    height: 17.48px;
+}
+.container-menu .menu-items .icon-search{
+    background-image: url(../images/menu/search.png);
+    background-repeat: no-repeat;
+    width:17px;
+    height: 17.48px;
+}
+
+.container-menu .menu-items .icon-folder{
+    background-image: url(../images/menu/storage.png);
+    background-repeat: no-repeat;
+    width:17px;
+    height: 17.48px;
+}
+
+.container-menu .menu-items .icon-setting{
+    background-image: url(../images/menu/settings.png);
+    background-repeat: no-repeat;
+    width:17px;
+    height: 17.48px;
+}
