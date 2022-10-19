@@ -43,7 +43,7 @@
     border-radius: 100%;
 }
 
-.header-container .icon-notification{
+.header-container .icons{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -51,15 +51,59 @@
     margin-right: 30px;
 }
 
-.header-container .icon-notification .notification{
-    background-image:url(../images/icons/bell.png) ;
-    width: 24px;
-    height: 24px;
+
+#carrito{
+    background-color: #DFF6FF;
+    padding: 40px;
+  
+    border-radius: 7px;
+
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
 }
 
 
-.header-container .icon-notification .cart{
-    background-image:url(../images/icons/cart.png) ;
-    width: 24px;
-    height: 24px;
+
+#vaciar-carrito{
+    width: auto;
+    height: 20px;
+    background-color: #ADDDD0;
+    margin: 10px;
+    padding: 5px;
+    color:black;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+
+.cart-container{
+    position: relative;
+    display: inline-block;
+}
+
+
+.cart-container:hover #carrito {
+    display: block;
+    right: 0;
+    border: 1px solid red;
+    background-color: white;
+  }
+
+.borrar-curso{
+    width: 45px;
+    height: 30px;
+    background-color: #DD5353;
+    padding: 5px;
+    color: #EDDBC0;
+    text-decoration: none;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+.celda{
+    padding:5px;
 }
